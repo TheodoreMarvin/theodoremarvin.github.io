@@ -1,7 +1,8 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
+import { MdMailOutline } from "react-icons/md";
 
 const SocialContainer = styled.div`
   position: fixed;
@@ -72,6 +73,24 @@ function FixSocialIcon() {
               rel="noopener noreferrer"
             >
               <FaGithub />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaInstagram />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <MdMailOutline />
             </a>
           </li>
         </ul>

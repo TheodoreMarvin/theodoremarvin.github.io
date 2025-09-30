@@ -32,7 +32,7 @@ function Hero() {
               <TypeAnimation
                 cursor={false}
                 sequence={[
-                  'Hi, I\'m Pedro.',
+                  'Hi, I\'m Theodore Marvin Hendrawan.',
                   () => setShowSubtitle(true)
                 ]}
                 speed={{ type: "keyStrokeDelayInMs", value: 150 }}
@@ -92,12 +92,12 @@ function Hero() {
 
           </HeroLeft>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
+            {/* <ScrollAnimation animateIn="fadeIn">
               <Image
                 src="/man-svgrepo-com.svg"
                 alt="man-svgrepo"
               />
-            </ScrollAnimation>
+            </ScrollAnimation> */}
           </HeroRight>
         </HeroWrapper>
         {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
