@@ -1,6 +1,30 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/ic_refun.png",
+    title: "REFUN",
+    description: "REFUN is an Android application that allows users to exchange used plastic bottles for points, which can later be redeemed for rewards. The app is designed to promote environmentally-friendly behavior by encouraging recycling through a simple, rewarding system",
+    tech_stack: ["Android Studio", "Kotlin"],
+    github_url: "https://github.com/alvinjonathann/refun",
+    demo_url: "",
+  },
+  {
+    img: "/ic_refun_logo.png",
+    title: "REFUN Owner",
+    description: "A complementary application for REFUN. REFUN Owner serves as a substitute for reverse vending machine, used to collect used plastic bottles",
+    tech_stack: ["Android Studio", "Kotlin"],
+    github_url: "https://github.com/alvinjonathann/refun_owner",
+    demo_url: "",
+  },
+  {
+    img: "/demo.gif",
+    title: "Simple-Particle",
+    description: "A simple HTML Canvas wallpaper for Lively Wallpaper",
+    tech_stack: ["HTML", "CSS", "JS"],
+    github_url: "https://github.com/TheodoreMarvin/Simple-Particle",
+    demo_url: ""
+  },
+  {
     img: "/ykte-feature-graphic.png",
     title: "YouKnowTheEnding",
     description:
