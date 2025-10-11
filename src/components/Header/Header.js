@@ -25,7 +25,7 @@ const Header = ({ toggle }) => {
         <NavBtn>
           <a
             className="btn PrimaryBtn"
-            href="https://www.linkedin.com/in/theodore-marvin-hendrawan/"
+            href="https://www.canva.com/design/DAGzBUCaDmk/VyIt7NkqxXuRQg2gxEJVBA/edit?utm_content=DAGzBUCaDmk&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -7,11 +7,19 @@ import Zoom from '@mui/material/Zoom';
 import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
-  const copyToClipboard = () => {
-    navigator.clipboard.writeText("pedro.sales.muniz@gmail.com");
+  const [showWATooltip, setShowWATooltip] = useState(false);
+  const copyEmailToClipboard = () => {
+    navigator.clipboard.writeText("theodore.hendrawan@binus.ac.id");
     setShowTooltip(true);
     setTimeout(() => {
       setShowTooltip(false);
+    }, 700);
+  };
+  const copyWAToClipboard = () => {
+    navigator.clipboard.writeText("+6281556638858");
+    setShowWATooltip(true);
+    setTimeout(() => {
+      setShowWATooltip(false);
     }, 700);
   };
 
@@ -38,7 +46,7 @@ function Contact() {
                   disableTouchListener
                   placement="bottom"
                 >
-                  <IconButton  onClick={copyToClipboard} >
+                  <IconButton  onClick={copyEmailToClipboard} >
                     <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }}/>
                   </IconButton>
                 </Tooltip>
@@ -50,6 +58,41 @@ function Contact() {
                 rel="noopener noreferrer"
               >
                 Send Email
+              </a>
+            </Email>
+          </div>
+        </ScrollAnimation>
+
+        <ScrollAnimation animateIn="fadeIn" >
+          <div className="BigCard">
+            <Email>
+              <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
+                <span>+62 815-5663-8858</span>
+                <Tooltip
+                  PopperProps={{
+                    disablePortal: true,
+                  }}
+                  open={showWATooltip}
+                  onClose={() => setShowWATooltip(false)}
+                  title="Copied!"
+                  TransitionComponent={Zoom}
+                  disableFocusListener
+                  disableHoverListener
+                  disableTouchListener
+                  placement="bottom"
+                >
+                  <IconButton  onClick={copyWAToClipboard} >
+                    <MdContentCopy size={25} style={{ cursor: 'pointer', color: "#151418" }}/>
+                  </IconButton>
+                </Tooltip>
+              </div>
+              <a
+                className="btn PrimaryBtn btn-shadow"
+                href="https://wa.me/6281556638858"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Send WhatsApp
               </a>
             </Email>
           </div>

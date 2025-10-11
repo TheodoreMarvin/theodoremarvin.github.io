@@ -35,7 +35,7 @@ function Hero() {
                   'Hi, I\'m Theodore Marvin Hendrawan.',
                   () => setShowSubtitle(true)
                 ]}
-                speed={{ type: "keyStrokeDelayInMs", value: 150 }}
+                speed={{ type: "keyStrokeDelayInMs", value: 75 }}
                 wrapper="h1"
                 repeat={0}
               />

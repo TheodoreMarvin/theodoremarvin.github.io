@@ -36,4 +36,5 @@ export const TechImg = styled.img`
 
 export const TechName = styled.div`
   font-size: 14px;
+  text-align: center;
 `;
