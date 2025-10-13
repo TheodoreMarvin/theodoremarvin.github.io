@@ -17,11 +17,13 @@ function About() {
         <div className="BigCard">
         <ScrollAnimation animateIn="fadeInLeft">
           <Image
-            src="/man-svgrepo-com.svg"
-            alt="man-svgrepo"
+            src="/foto mentah_edited.jpg"
+            alt="Foto diri"
           />
         </ScrollAnimation>
           <div className="AboutBio">
+            <br />
+            
             <ScrollAnimation animateIn="fadeInLeft">
             Hello! My name is <strong>Theodore Marvin Hendrawan</strong>. I'm a Computer Science student from BINUS University Bandung.
             I have a strong desire for self improvement. I am also eager to learn new tools and technologies.
