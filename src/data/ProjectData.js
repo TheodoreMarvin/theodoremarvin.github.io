@@ -1,6 +1,14 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/gambar rumah 2.jpeg",
+    title: "Smart Home Prototype",
+    description: "Smart Home Prototype made using ESP32 and Blynk platform.",
+    tech_stack: ["ESP32", "Blynk", "Arduino IDE"],
+    github_url: "https://github.com/TheodoreMarvin/smart-home-prototype",
+    demo_url: "",
+  },
+  {
     img: "/ic_refun.png",
     title: "REFUN",
     description: "REFUN is an Android application that allows users to exchange used plastic bottles for points, which can later be redeemed for rewards. The app is designed to promote environmentally-friendly behavior by encouraging recycling through a simple, rewarding system",
