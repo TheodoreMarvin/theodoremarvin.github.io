@@ -1,6 +1,14 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/preview_headscan.png",
+    title: "HeadScan",
+    description: "HeadScan is a website security header scanner. It checks for HTTP response security headers used by a website according to the OWASP Secure Headers Project (OSHP)'s list of recommended and deprecated security headers.",
+    tech_stack: ["NodeJS"],
+    github_url: "https://github.com/TheodoreMarvin/HeadScan",
+    demo_url: "",
+  },
+  {
     img: "/gambar rumah 2.jpeg",
     title: "Smart Home Prototype",
     description: "Smart Home Prototype made using ESP32 and Blynk platform.",
