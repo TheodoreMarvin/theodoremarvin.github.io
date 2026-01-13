@@ -1,6 +1,14 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/preview_barakos.png",
+    title: "Barakos.com",
+    description: "Barakos is a website prototype for renting household items for boarding house residents",
+    tech_stack: ["HTML", "CSS", "JS"],
+    github_url: "https://github.com/J3Bb/Barakos-Prototype-",
+    demo_url: "",
+  },
+  {
     img: "/preview_headscan.png",
     title: "HeadScan",
     description: "HeadScan is a website security header scanner. It checks for HTTP response security headers used by a website according to the OWASP Secure Headers Project (OSHP)'s list of recommended and deprecated security headers.",
